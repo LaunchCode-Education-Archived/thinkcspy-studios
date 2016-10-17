@@ -1,7 +1,7 @@
-# Lab: Bugz
+# Studio: Bugz
 
 ## Concepts Used
 
-## Pre-lab
+## Walkthrough
 
-## Lab
+## Studio

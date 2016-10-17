@@ -1,7 +1,7 @@
-# Lab:
+# Studio: Bubble Sort
 
 ## Concepts Used
 
-## Pre-lab
+## Walkthrough
 
-## Lab
+## Studio

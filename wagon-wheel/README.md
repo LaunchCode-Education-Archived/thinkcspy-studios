@@ -1,7 +1,7 @@
-# Lab: Wagon Wheel
+# Studio: Wagon Wheel
 
 ## Concepts Used
 
-## Pre-lab
+## Walkthrough
 
-## Lab
+## Studio

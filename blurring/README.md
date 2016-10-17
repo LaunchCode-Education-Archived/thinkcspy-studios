@@ -1,7 +1,7 @@
-# Lab: Blurring
+# Studio: Blurring
 
 ## Concepts Used
 
-## Pre-lab
+## Walkthrough
 
-## Lab
+## Studio

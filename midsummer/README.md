@@ -1,7 +1,7 @@
-# Lab: A Midsummer Night's Lab
+# Studio: A Midsummer Night's Studio
 
 ## Concepts Used
 
-## Pre-lab
+## Walkthrough
 
-## Lab
+## Studio

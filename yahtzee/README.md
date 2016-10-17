@@ -1,7 +1,7 @@
-# Lab: Yahtzee
+# Studio: Yahtzee
 
 ## Concepts Used
 
-## Pre-lab
+## Walkthrough
 
-## Lab
+## Studio

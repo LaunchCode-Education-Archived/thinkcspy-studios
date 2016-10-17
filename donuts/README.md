@@ -1,7 +1,7 @@
-# Lab: Donuts
+# Studio: Donuts
 
 ## Concepts Used
 
-## Pre-lab
+## Walkthrough
 
-## Lab
+## Studio

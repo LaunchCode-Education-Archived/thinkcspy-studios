@@ -1,5 +1,5 @@
 """
-Pre-lab: Create a tip calculator
+Walkthrough: Create a tip calculator
 """
 
 #prompt the user for meal subtotal

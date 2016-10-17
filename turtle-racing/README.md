@@ -1,7 +1,7 @@
-# Lab: Turtle Racing
+# Studio: Turtle Racing
 
 ## Concepts Used
 
-## Pre-lab
+## Walkthrough
 
-## Lab
+## Studio

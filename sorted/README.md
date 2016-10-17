@@ -1,7 +1,7 @@
-# Lab: Sorted
+# Studio: Sorted
 
 ## Concepts Used
 
-## Pre-lab
+## Walkthrough
 
-## Lab
+## Studio

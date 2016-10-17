@@ -1,7 +1,7 @@
-# Lab: Searching
+# Studio: Searching
 
 ## Concepts Used
 
-## Pre-lab
+## Walkthrough
 
-## Lab
+## Studio
