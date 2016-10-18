@@ -3,9 +3,9 @@
 # in a list of numbers, print every ith number
 def print_every(i, nums):
     counter = 0
-    for n in nums:
+    for num in nums:
         if counter % i == 0:
-            print(n)
+            print(num)
         counter += 1
 
 print_every(3, [4, 7, 2, 8, 1, 0, 9, 6])
