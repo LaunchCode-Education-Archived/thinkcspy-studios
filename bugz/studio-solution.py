@@ -12,10 +12,33 @@ print_every(3, [4, 7, 2, 8, 1, 0, 9, 6])
 # should print 4, then print 8, then print 9
 
 
+########## EXERCISE 1 ############
+
+# return True if every member of the group is at least 70, otherwise return False
+def check_group(ages):
+    for age in ages:
+        if age < 70:
+            return False
+    return True
+
+
+from test import testEqual
+
+# this group should not be allowed inside the bar
+group = [78, 71, 25, 84]
+testEqual(check_group(group), False)
+
+# this group should also not be allowed inside the bar
+group2 = [ 2, 99 ]
+testEqual(check_group(group2), False)
+
+# this loner is allowed
+group3 = [ 99 ]
+testEqual(check_group(group3), True)
 
 
 
-########## EXERCISE 2 ##########
+########## EXERCISE 2 ############
 
 def password_checker(password):
     """
@@ -27,7 +50,7 @@ def password_checker(password):
     for char in password:
         if char == " ":
             return False
-        else not char.isalpha():
+        elif not char.isalpha():
             contains_non_alpha = True
 
     return contains_non_alpha
