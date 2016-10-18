@@ -24,3 +24,29 @@ def sumOfRoll(double_array):
     
     
     
+
+# Bonus function! Takes a 2 dimensional array and returns
+# the number of times a person rolls Yahtzee (all dice have
+# the same value). Hint: you may want to create a helper
+# function that takes individual rows of the array.
+def yahtzee(double_array):
+    return 0
+    # Bonus: your code here
+
+
+
+
+
+dice = input("How many dice?")
+rolls = input("What is the number of rolls?")
+
+array = rollDice(dice, rolls)
+print("Testing sumOfRoll...")
+testEqual(sumOfRoll([[4, 5, 2],[6,2,1],[4,4,4]]), [11, 9, 12])
+testEqual(sumOfRoll([[3, 4, 6],[2,6,1],[3,4,3]]), [13, 9, 10])
+print("Testing yahtzee...")
+testEqual(yahtzee([[4, 5, 2],[6,2,1],[4,4,4]]), 1)
+testEqual(yahtzee([[3, 4, 6],[2,6,1],[3,4,3]]), 0)
+
+
+    
