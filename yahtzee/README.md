@@ -2,6 +2,8 @@
 
 ## Concepts Used
 
+- Working with nested lists
+
 ## Walkthrough
 
 ## Studio
