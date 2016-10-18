@@ -13,6 +13,7 @@ Each folder is a studio that is divided up into two parts, a walkthrough and a s
 Studio | Concepts | thinkscspy chapter(s)
 |------|----------|--------------------|
 [Holiday](holiday/README.md) | `input`, `print`, type conversion, modulo, comments | 1, 2
+[Donuts](donuts/README.md) | basic math | 3
 
 
 [thinkcspy]: https://runestone.launchcode.org/runestone/static/thinkcspy/index.html
