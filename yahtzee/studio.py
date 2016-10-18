@@ -20,3 +20,7 @@ def rollDice(dice, rolls):
 # double_array: [[1, 5, 6],[2, 3, 1],[1, 3, 3]]
 # sumOfRoll should return: [12, 6, 7]
 def sumOfRoll(double_array):
+    # Your code here
+    
+    
+    
