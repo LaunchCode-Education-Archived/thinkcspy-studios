@@ -43,6 +43,10 @@ testEqual(check_group(group3), True)
 ########## EXERCISE 2 ##########
 
 def password_checker(password):
+    """
+    A valid password has no spaces, 
+    and at least one non-alphabetical character
+    """
     contains_non_alpha = False
 
     for char in password:
@@ -57,7 +61,14 @@ pw1 = "i <3 makonnen"
 print(password_checker(pw1))
 # should print False
 
+pw2 = "puzzlesareforfun"
+print(password_checker(pw2))
+# should print False
+
 pw2 = "puzzlesr4fun"
 print(password_checker(pw2))
 # should print True
+
+
+
 
