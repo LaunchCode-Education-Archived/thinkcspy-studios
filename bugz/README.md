@@ -8,6 +8,8 @@ Debugging some programs with common mistakes.
 
 ## Studio
 
+[Book Page Link](https://runestone.launchcode.org/runestone/static/thinkcspy/Studios/bugz.html)
+
 Below are the answers:
     - Exercise 0:
         - the variable `i` is used twice. Change the loop variable (and the associated print statement) to something else.
