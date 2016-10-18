@@ -2,6 +2,9 @@
 
 ## Concepts Used
 
+- Using dictionaries
+- Running Python on the command line
+
 ## Walkthrough
 
 ## Studio
