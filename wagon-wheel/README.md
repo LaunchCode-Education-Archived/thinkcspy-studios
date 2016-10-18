@@ -14,3 +14,4 @@ Here is a [video of a previous class](https://youtu.be/5FscOAPDkAQ)
 
 ## Studio
 
+[Book Page Link](https://runestone.launchcode.org/runestone/static/thinkcspy/Studios/wagon-wheel.html)
