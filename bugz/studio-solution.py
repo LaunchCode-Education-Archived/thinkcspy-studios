@@ -3,25 +3,23 @@
 # in a list of numbers, print every ith number
 def print_every(i, nums):
     counter = 0
-    for i in nums:
+    for num in nums:
         if counter % i == 0:
-            print(i)
+            print(num)
         counter += 1
 
 print_every(3, [4, 7, 2, 8, 1, 0, 9, 6])
 # should print 4, then print 8, then print 9
 
 
-
-########## EXERCISE 1 ##########
+########## EXERCISE 1 ############
 
 # return True if every member of the group is at least 70, otherwise return False
 def check_group(ages):
     for age in ages:
         if age < 70:
             return False
-        else:
-            return True
+    return True
 
 
 from test import testEqual
@@ -40,7 +38,7 @@ testEqual(check_group(group3), True)
 
 
 
-########## EXERCISE 2 ##########
+########## EXERCISE 2 ############
 
 def password_checker(password):
     """
@@ -52,7 +50,7 @@ def password_checker(password):
     for char in password:
         if char == " ":
             return False
-        else not char.isalpha():
+        elif not char.isalpha():
             contains_non_alpha = True
 
     return contains_non_alpha
@@ -68,7 +66,4 @@ print(password_checker(pw2))
 pw2 = "puzzlesr4fun"
 print(password_checker(pw2))
 # should print True
-
-
-
 
