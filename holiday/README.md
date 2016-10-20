@@ -6,6 +6,7 @@
 - Type conversion
 - Variable assignment
 - Output (`print`)
+- Modulo
 
 ## Walkthrough
 
