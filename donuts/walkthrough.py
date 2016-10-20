@@ -1,3 +1,8 @@
+"""
+Walkthrough: Selling flags to buy beer
+"""
+
+
 # prompt for dollar to pound exchange
 pounds_per_dollar = input("Current dollar-to-pound exchange rate: ")
 pounds_per_dollar = float(pounds_per_dollar)
@@ -22,4 +27,3 @@ num_pints = int(num_pints)
 
 # print out number of pints
 print("You can afford", num_pints, "pints of beer!")
-
