@@ -1,5 +1,6 @@
 import image
 import sys
+import random
 
 # Set the timeout to a larger number if timeout is occuring.
 sys.getExecutionLimit(30000)
@@ -8,14 +9,19 @@ img = image.Image("luther.jpg")
 newimg = image.EmptyImage(img.getWidth(), img.getHeight())
 win = image.ImageWin()
 
-for i in range(0, img.getWidth()):
-    for j in range(0, img.getHeight()):
-        old_p = img.getPixel(i, j)
-        # TODO: Complete the inner part of this loop to blur the image.
-        # new_p = image.Pixel(255, old_p.getBlue(), old_p.getGreen())
-        # newimg.setPixel(i, j, new_p)
+for i in range(1, img.getWidth() - 1):
+    for j in range(1, img.getHeight() - 1):
+        # pick a random neighbor
+        nx = random.randint(i-1, i+1)
+        ny = random.randint(j-1, j+1)
+        
+        # set this pixel to neighbor's color
+        neighbor_color = img.getPixel(nx, ny)
+        newimg.setPixel(i,j, neighbor_color)
+        
 
 newimg.draw(win)
 win.exitonclick()
+
 
 
