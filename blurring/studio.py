@@ -2,8 +2,8 @@ import image
 import sys
 import random
 
-# Set the timeout to a larger number if timeout is occuring.
-sys.getExecutionLimit(30000)
+# You can increase this to buy yourself some time, if you're getting a "timeout error"
+sys.setExecutionLimit(30000)
 
 img = image.Image("luther.jpg")
 newimg = image.EmptyImage(img.getWidth(), img.getHeight())
