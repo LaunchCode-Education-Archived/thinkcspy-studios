@@ -4,9 +4,9 @@ def remove_char(a_str, a_char):
 
     new_str = ''
 
-    for idx in range(len(a_str)):
-        if a_str[idx] != a_char:
-            new_str = new_str + a_str[idx]
+    for this_char in a_str:
+        if this_char != a_char:
+            new_str = new_str + this_char
 
     return new_str
 
