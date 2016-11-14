@@ -3,6 +3,9 @@ import image
 img = image.Image("luther.jpg")
 win = imge.ImageWin()
 
+# You can increase this to buy yourself some time, if you're getting a "timeout error"
+sys.setExecutionLimit(30000)
+
 for x in range(img.getWidth()):
     for y in range(img.getHeight()):
         p = img.getPixel(x, y)

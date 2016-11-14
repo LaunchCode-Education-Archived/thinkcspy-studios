@@ -1,7 +1,13 @@
 def contains_n(numbers, n):
-    # Your code here, to replace this non-working version
+    for num in numbers:
+        if num == n:
+            return True
     return False
 
-# Be sure to test your function with various inputs
-
-
+# testing with some inputs
+example_nums = [1, 2, 3, 2]
+print( contains_n(example_nums, 0) )
+print( contains_n(example_nums, 1) )
+print( contains_n(example_nums, 2) )
+print( contains_n(example_nums, 3) )
+print( contains_n(example_nums, 4) )
