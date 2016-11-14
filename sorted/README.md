@@ -13,4 +13,4 @@ Write a function ``remove_char`` that takes two string arguments, ``a_str`` and 
 
 Since a string is just a sequence of characters, they can be sorted from least to greatest. Sorting can be hard so we're just going to check if a string is sorted. Write a function which returns a boolean indicating if the string is sorted or not.
 
-[Book Page Link](https://runestone.launchcode.org/runestone/static/thinkcspy/Studios/sorting.html)
+[Book Page Link](https://runestone.launchcode.org/runestone/static/thinkcspy/Studios/sorted.html)
