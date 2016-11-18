@@ -2,7 +2,7 @@ def bubble_sort(lst):
 """ Sorts a list using bubble sort.
 Does not alter the original list but returns a sorted version of it.
 """
-# TODO your code here
+
     is_sorted = False
     while is_sorted == False:
         nswaps = 0
