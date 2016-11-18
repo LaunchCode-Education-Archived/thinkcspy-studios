@@ -16,7 +16,7 @@ See `walkthrough.py` for the code.
 
 Problems:
 1. All words that do not begin with 'q' will automatically return 0
-2.  q words add 11 to the total points
+2. q words add 11 to the total points
 
 There are a couple ways to fix this (for instance, you could use nested conditionals or boolean logic to deal with the 'q' words), but one possible solution is `walkthrough-solution.py`.
 
