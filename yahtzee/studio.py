@@ -45,20 +45,21 @@ def yahtzee(double_list):
     num_yahtzees = 0
 
     for roll in double_list:
-
-        is_yahtzee = True
-        first_die = roll[0]
-
-        for die in roll:
-            # If we still have a potential yahtzee, check the next die
-            is_yahtzee = (is_yahtzee and (die == first_die))
-
-        if is_yahtzee:
+        if roll_is_yahtzee(roll):
             num_yahtzees += 1
 
     return num_yahtzees
 
+def roll_is_yahtzee(list):
+    
+    is_yahtzee = True
+    first_die = list[0]
 
+    for die in roll:
+        # If we still have a potential yahtzee, check the next die
+        is_yahtzee = (is_yahtzee and (die == first_die))
+
+    return is_yahtzee
 
 # To play, you'd do something like this
 # dice = input("How many dice?")
