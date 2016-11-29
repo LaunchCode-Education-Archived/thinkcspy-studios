@@ -22,6 +22,6 @@ Studio | Concepts | thinkscspy chapter(s)
 [Bugz](bugz/README.md) | a few common mistakes | 9
 [Bubble Sort](bubble-sort/README.md) | working with lists | 10
 [Yahtzee](yahtzee/README.md) | working with nested lists | 11
-[Midsummer](midsummer/README.md) | dicitonaries, running python on the command-line | 12
+[Counting Characters](counting-characters/README.md) | dicitonaries, running python on the command-line | 12
 
 [thinkcspy]: https://runestone.launchcode.org/runestone/static/thinkcspy/index.html
