@@ -23,5 +23,6 @@ Studio | Concepts | thinkscspy chapter(s)
 [Bubble Sort](bubble-sort/README.md) | working with lists | 10
 [Yahtzee](yahtzee/README.md) | working with nested lists | 11
 [Counting Characters](counting-characters/README.md) | dicitonaries, running python on the command-line | 12
+[Blog Design](blog-design/README.md) | classes, objects, inheritance, class diagrams | 13, 14
 
 [thinkcspy]: https://runestone.launchcode.org/runestone/static/thinkcspy/index.html
