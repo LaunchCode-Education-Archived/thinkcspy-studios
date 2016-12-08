@@ -14,7 +14,7 @@ After introducing the concept of a class diagram, we create `Post` and `VideoPos
 
 ## Studio
 
-Student create two additional extensions of `Post`: `LinkPost` and `ImagePost`
+Students create two additional extensions of `Post`: `LinkPost` and `ImagePost`
 
 ![Studio Class Diagram](ch14-studio.png)
 
