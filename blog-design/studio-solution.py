@@ -25,9 +25,23 @@ class VideoPost(Post):
         return self.title + " played " + str(self.plays) + " times"
 
 
-# TODO - create ImagePost class based on class diagram
+class ImagePost(Post):
+    def __init__(self, title, author, file_name):
+        Post.__init__(self, title, author, None)
+        self.file_name = file_name
 
-# TODO - create LinkPost class based on class diagram
+
+class LinkPost(Post):
+    def __init__(self, title, author, url):
+        Post.__init__(self, title, author, None)
+        self.url = url
+        self.clicks = 0
+
+    def click(self):
+        self.clicks += 1
+
+    def __str__(self):
+        return self.title + ": " + self.url
 
 
 plain_post = Post("10 Best Albums of 2016", "Chris Bay", "1. Little Scream - Cult Following 2. ...")

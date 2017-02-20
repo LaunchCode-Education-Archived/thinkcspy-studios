@@ -16,3 +16,5 @@ Does not alter the original list but returns a sorted version of it.
         if nswaps == 0:
             is_sorted = True
     return lst
+
+bubble_sort([3,2,1])
