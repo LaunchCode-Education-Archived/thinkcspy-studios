@@ -16,13 +16,13 @@ Studio | Concepts | thinkscspy chapter(s)
 [Donuts](donuts/README.md) | basic math | 3
 [Turtle Racing](turtle-racing/README.md) | using modules | 4
 [Wagon Wheel](wagon-wheel/README.md) | functions | 5
-[Searching](searching/README.md) | conditionals, booleans | 6
-[Blurring](blurring/README.md) | nested iteration, the `image` module | 7
+[Blurring](blurring/README.md) | conditionals nested iteration, the `image` module | 6, 7
 [Sorted](sorted/README.md) | iterating through strings, indexing into strings | 8
 [Bugz](bugz/README.md) | a few common mistakes | 9
 [Bubble Sort](bubble-sort/README.md) | working with lists | 10
 [Yahtzee](yahtzee/README.md) | working with nested lists | 11
 [Counting Characters](counting-characters/README.md) | dicitonaries, running python on the command-line | 12
-[Blog Design](blog-design/README.md) | classes, objects, inheritance, class diagrams | 13, 14
+[Class Design](class-design/README.md) | classes and objects | 13
+[Blog Design](blog-design/README.md) | inheritance and class diagrams | 14
 
 [thinkcspy]: https://runestone.launchcode.org/runestone/static/thinkcspy/index.html
